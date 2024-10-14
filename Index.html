@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/predefinidos.css">
+    <link rel="stylesheet" href="css/predefinidas.css">
     <title>Pagina inicial</title>
 </head>
 <body>
@@ -18,10 +18,12 @@
                 <div class="versao">v2.0</div>
             </h1> 
             <nav>
+                <label for="ocultar">&#9776;</label>
+                <input type="checkbox" name="ocultar" id="ocultar">
                 <ul>
-                    <li><a href="#">Artigo</a></li>
-                    <li><a href="#">Relises</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="artigo.html">Artigo</a></li>
+                    <li><a href="relises.html">Relises</a></li>
+                    <li><a href="login.html">Login</a></li>
                 </ul>
              </nav>
             <div class="fortuna">
@@ -34,24 +36,25 @@
         <section>
             <p class="texto">O Fortunawork é framework php criado com intento de acelerar a criação de web app, seja site, blog, sistemas de gestão ou qualquer app. Baseado na arquitetura MVC e adoptando os princípios de Progamação Orientada a Objecto o Fortuna work, estrutura toda aplicação e faz com o desenvolvedor se focalize na regra de negócio.</p>
         </section>
-        
-       <footer> 
-            <section class="margem">  
-                <figure class="logogrand">
-                    <img src="imagens/logo_big.png" class="tamanholog" alt="logo do Fortuna">
-                    <figcaption><p>Fortuna work v2.0</p>
-                        <p>Mostarda Tec</div></p>
-                    </figcaption>
-                </figure>
+    </main>
+    <footer> <!-- Conteúdo do rodapé -->
+        <section>
+             <figure class="logogrand">
+             <img src="imagens/logo_big.png" class="tamanholog" alt="logo do Fortuna">
+                <figcaption><h4>Fortuna work v2.0</h4>
+                     <p>Mostarda Tec</p>
+                     </figcaption>
+             </figure>
+             <div class="fundo">
                 <ul class="listas">
                     <li>POO</li>
-                    <li>MVC</li>
-                    <li>URL amigavel</li>
+                    <li>MVC</li>  
+                    <li>URL amigavel</li> 
                     <li>APPS Leves e Rapidos</li>
-                    <li>Recursos disponiveis</li>
+                    <li> Recursos disponiveis</li>
                 </ul>
-            </section>
-        </footer>
-
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
