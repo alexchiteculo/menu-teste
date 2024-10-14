@@ -1,0 +1,365 @@
+/*projecto de texte
+nome do projecto: Fortuna Work
+empresa: Mostarda Tec
+Desenvolvedors: Alexandre e Ngoma
+versao: 2.0
+linguagem de marcacao: Html 5
+liguagem de estilo:Css3
+java script.
+*/ 
+
+/* reset */
+
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('../fontes/JosefinSlab-VariableFont_wght.ttf');
+}
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+
+/*inicializacao*/
+body {
+    font: normal 20pt 'JosefinSlab';
+    line-height: 38px;
+    margin: auto;
+}
+header{
+    background-color: #f4f4f4;
+    padding-bottom: 80px;
+    
+}
+
+
+.margem {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header h1 {
+    text-align: center;
+    margin-top:0px;
+    font-size: 30pt;
+    padding-top: 5px;
+    position: static;
+}
+header{
+    background-color: #f4f4f4;
+    padding-bottom: 80px;
+}
+header img{
+    text-align: center;
+    margin-top: 10px;
+    bottom: 5px;
+}
+.texto{
+    text-align: justify;
+    padding:50px 15px 70px 70px;
+    width: auto;
+
+    .versao{
+        font: 100 14pt 'JosefinSlab';
+        color:#666666 ;
+        margin-top: -30px;
+        margin-left: 100px;
+        float: right;
+        clear: both;
+    }
+
+
+    header nav ul li{
+        margin-left: 20px;
+        display: none; /*pra depois alterar */
+        text-align: right;
+        float:right;
+        
+
+    }
+    header nav ul li a{
+        text-decoration: none;
+    }
+    header div.fortuna h3{
+        text-align: center;
+    }
+
+    header div.fortuna p{
+        text-align:center;
+    }
+header div.fortuna {
+        padding: 20px;
+    }
+    
+
+    
+    /* background-color: red; */
+}
+/* editando o log */
+
+@media(min-width:300px){
+
+
+    header h1 {
+        text-align: center;
+        margin-top:0px;
+        font-size: 30pt;
+        padding-top: 5px;
+        position: static;
+    }
+    header{
+        background-color: #f4f4f4;
+        padding-bottom: 80px;
+    }
+    header img{
+        text-align: center;
+        margin-top: 10px;
+        bottom: 5px;
+    /* depois flutuar a esquda*/
+    }
+    .fortw{
+        font-size: 30pt;
+        line-height:30px;
+        width: 220px;
+        text-align: right;
+        margin-left: 25px;
+        color: #097c09;
+    }
+
+    .fortw span{
+        color:black;
+        font:normal 30pt 'JosefinSlab';
+    }
+    .mostarda{
+        font: 100 14pt 'JosefinSlab';
+        color:#666666 ;
+    
+    }
+    .versao{
+        font: 100 14pt 'JosefinSlab';
+        color:#666666 ;
+        margin-top: -30px;
+        margin-left: 100px;
+        float: right;
+        clear: both;
+    }
+
+
+    header nav ul li{
+        margin-left: 20px;
+        display: none; /*pra depois alterar */
+        text-align: right;
+        float:right;
+        
+
+    }
+    header nav ul li a{
+        text-decoration: none;
+    }
+    header div.fortuna h3{
+        text-align: center;
+    }
+
+    header div.fortuna p{
+        text-align:center;
+    }
+header div.fortuna {
+        padding: 20px;
+    }
+    
+
+    /* editando o menu que ficara ocultado */
+    input[type='checkbox'] {
+        display: block;
+    }
+    input[type='checkbox']:checked ~ ul {
+        right: 5%;
+    }
+    #ocultar{
+        font-size: 15pt;
+    }
+    header nav label {
+        display:block;
+        padding:8px 5px 8px;
+        font-size: 20pt;
+        cursor: pointer;
+        color:#097c09;
+        border: 1px solid #097c09;
+        width: 48px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 3px;
+        float:right;
+        margin-top: -30px;
+    }
+    header nav label:hover {
+        color: white;
+    }
+    /* editando a imagem com fundo escuro no footer*/
+
+    .logogrand {
+        filter: grayscale(100%);
+    }
+    
+    figure.logogrand img {
+        width: 250px;
+
+    }
+    figure.logogrand figcaption h4 {
+        
+        color:black;
+        font:bold 12pt 'JosefinSlab';
+        text-align: center;
+    
+    }
+
+    figure.logogrand figcaption p{
+        font:normal 12pt 'JosefinSlab';
+        text-align: center;
+    }
+
+    .logogrand{
+    
+        vertical-align: middle;
+        margin: 40px;
+        margin-left: 40px; 
+        margin-right: 80px; 
+        background-color:none;
+        border-width: 1px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 50%;
+        padding-top: 30px;
+        margin: 0 5%;
+    }
+    .logogrand{
+        
+        vertical-align: middle;
+        padding: 40px;
+        background-color:none;
+        border-width: 1px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 50%;
+    } 
+
+    footer ul li{
+        clear: both;
+        background-color: #f4f4f4;
+        width: 120px;
+        text-decoration: none;
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    .logogrand{
+        margin-top: 40px;
+    }
+}
+
+
+
+@media(min-width:400px){
+
+    header nav label {
+        display:block;
+    }
+    header h1{
+            float: left;
+        }
+    .fortuna {
+        clear: both;
+        padding: 30px;
+    
+    }
+    header img{
+        float:left;
+        margin-top: 15px;
+    }
+    
+    .logogrand{
+        float: left; 
+        vertical-align: middle;
+        padding: 40px;
+        background-color:none;
+        border-width: 1px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 50%;
+
+    } 
+    .fortw{
+        float: left;
+        padding-top: 40px;
+        margin-left:115px;
+        margin-top: -85px;
+    }
+    .mostarda{
+        clear: both;
+        margin-left: 130px;
+        margin-bottom:-60px;
+    }
+    .versao{
+        float: left;
+        margin-left:350px;
+
+    }
+    header nav label {
+    margin-top: 20px;
+    }
+
+    footer ul li{
+        width: 240px;
+        padding-top: 30px;
+        overflow: hidden;
+    }
+
+
+    }  
+
+    @media(min-width:560px){
+
+    header nav label{
+        display: inline;
+
+    }
+
+    header nav ul li{
+        display: none;
+        margin: 30px;
+
+    }
+    header nav ul li{
+        margin-left: 5px;
+        padding-left: 5px;
+        
+    }
+    .fortuna h3{
+        padding-top:70px;
+        font-size: 36pt;
+        padding-bottom: 20px;
+
+    }
+    }
+    header nav label {
+        display:inline;
+        margin-top: 10px;
+    }
+    .listas{
+        float: right;
+
+    }
+
+    figcaption {
+        margin-top: 10px;
+    }
+
+   
+   
